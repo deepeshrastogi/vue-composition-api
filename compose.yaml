@@ -1,0 +1,6 @@
+services:
+  img:
+    build: .
+    container_name: vuejs_project
+    ports:
+      - 8080:8080
